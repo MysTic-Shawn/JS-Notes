@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="URF-18">
+        <meta name="viewport" content="width=devicewidth, initial scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Temperature Converter</title>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <h1>Temperature Converter</h1>
+        <form>
+            <label for="temperature" id="temp">Please enter the temperature </label>
+            <br>
+            <input type="number" id="temperature" name="temperature">
+            <select id="conversionOption">
+                <option value="fahrenheit">to Fahrenheit</option>
+                <option value="celcius">to Celsius</option>
+            </select>
+
+            <br />
+            <input type="button" value="Convert" onclick="calculateTemp()">
+            <br />
+            
+            <div id="finalResult"></div>
+
+        </form>
+        
+
+        <script src="script.js"></script>
+    </body>
+
+
+
+
+</html>
